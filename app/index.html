@@ -6,30 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Progressive Web Apps</title>
   <link rel="stylesheet" href="/css/app.css">
-  <link rel="manifest" href="/manifest.json">
-
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <meta name="apple-mobile-web-app-title" content="Wisdom Pet">
-  <meta name="apple-touch-icon" content="images/icons/icon-152x152.png">
-
-  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#2F3BA2">
-
+  
 </head>
 <body>
 <header>
   <nav></nav>
 </header>
-<div id="slideshow-content">
+<div id="slideshow-content"></div>
   <main>
     <div class="page" id="adoption">
       <div class="container">
-        <h2 class="holder text"></h2>
-      </div>
-    </div>
+        <h2 class="page-headline">Adoption</h2>
+        <p> These loving and deserving pets need a home
+        Please help us find a place for them. Click on photo
+        for more info.</p>
+      </div><!--container-->
+    </div><!--page-adoption-->
+    <div class="page" id="appointments">
+      <div class="container">
+        <h2 class="page-headline">Appointments</h2>
+        <p>Here's the pets that came in this week for
+          an appoitnment. Click on pet's photo for more info</p>
+      </div><!--container-->
+    </div><!--page-appointments-->
   </main>
-</div>
+  <script src="js/spp.js"></script>
 </body>
 </html>
